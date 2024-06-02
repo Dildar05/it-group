@@ -469,7 +469,8 @@ a {
 		font-size: 11px;
 	}
 	.top__inner {
-		flex-direction: column;
+		flex-wrap: wrap;
+		gap: 20px;
 	}
 	.top__inner img {
 		width: 170px;
