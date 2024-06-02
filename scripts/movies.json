@@ -1,0 +1,62 @@
+[
+	{
+		"title": "Праздники",
+		"genre": ["Комедия"],
+		"premiere": true,
+		"showtimes": ["15:35", "17:40", "19:15", "21:05", "21:40", "22:45"],
+		"filmFormat": ["2D", "2D", "2D", "2D", "2D", "2D"],
+		"cost": ["1233₸", "3080₸", "1700₸", "1700₸", "4030₸", "1700₸"],
+		"hall": ["Зал 3", "Зал 6 VIP", "Зал 4", "Зал 3", "Зал 6 VIP", "Зал 3"],
+		"poster": "images/poster1.png"
+	},
+	{
+		"title": "Мег 2: Бездна",
+		"genre": ["экшен", "триллер"],
+		"premiere": false,
+		"showtimes": ["15:35", "17:40", "19:15"],
+		"filmFormat": ["2D", "2D", "2D"],
+		"cost": ["4030₸", "3080₸", "1700₸"],
+		"hall": ["Зал 6 VIP", "Зал 2 Auro", "Зал 4"],
+		"poster": "images/poster2.png"
+	},
+	{
+		"title": "Заложники",
+		"genre": ["экшен", "триллер"],
+		"premiere": false,
+		"showtimes": ["16:10", "21:30"],
+		"filmFormat": ["2D", "2D"],
+		"cost": ["4030₸", "3080₸"],
+		"hall": ["Зал 1", "Зал 1"],
+		"poster": "images/poster3.png"
+	},
+	{
+		"title": "Леди Баг и Супер-Кот: Пробуждение силы",
+		"genre": ["фентези", "боевик", "мелодрама", "мультфильм", "комедия"],
+		"premiere": false,
+		"showtimes": ["16:10", "21:30"],
+		"filmFormat": ["2D", "2D"],
+		"cost": ["4030₸", "3080₸"],
+		"hall": ["Зал 1", "Зал 1"],
+		"poster": "images/poster4.png"
+	},
+	{
+		"title": "Руслан и Людмила. Больше, чем сказка",
+		"genre": ["анимационое приключение", "мультфильм", "комедия"],
+		"premiere": true,
+		"showtimes": ["16:10", "21:30"],
+		"filmFormat": ["2D", "2D"],
+		"cost": ["4030₸", "3080₸"],
+		"hall": ["Зал 1", "Зал 1"],
+		"poster": "images/poster5.png"
+	},
+	{
+		"title": "Not found",
+		"genre": ["комедия"],
+		"premiere": false,
+		"showtimes": ["16:10"],
+		"filmFormat": ["2D"],
+		"cost": ["4030₸"],
+		"hall": ["Зал 1"],
+		"poster": "images/not-found.png"
+	}
+]

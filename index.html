@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="styles/style.css" />
+		<title>IT-Group</title>
+	</head>
+	<body>
+		<div class="wrapper">
+			<div class="top__banner">
+				<img src="images/w1500_50514035.png" alt="banner" />
+			</div>
+			<header class="header">
+				<div class="header-top">
+					<div class="container">
+						<div class="header-top__inner">
+							<img src="images/logo.svg" alt="logo" />
+							<div class="contacts">
+								<ul class="contact__address">
+									<li class="contact__title">Казахстан</li>
+									<li class="contact__sub-title">улица Гумара Караша 33/2</li>
+								</ul>
+								<ul class="contact__number">
+									<li class="contact__title contact__number-title">
+										+7 (775) 000 00 01
+									</li>
+									<li class="contact__sub-title">Касса</li>
+								</ul>
+							</div>
+							<div class="social__network-blok">
+								<ul class="social__network">
+									<li class="social__network-item">
+										<a href="#" class="social__network-link"
+											><img src="images/Facebook.svg" alt="facebook"
+										/></a>
+									</li>
+									<li class="social__network-item">
+										<a href="#" class="social__network-link"
+											><img src="images/Instagram.svg" alt="instagram"
+										/></a>
+									</li>
+									<li class="social__network-item">
+										<a href="#" class="social__network-link"
+											><img src="images/YouTube.svg" alt="youtube"
+										/></a>
+									</li>
+									<li class="social__network-item">
+										<a href="#" class="social__network-link"
+											><img src="images/Vkontakte (VK).svg" alt="vkontakte"
+										/></a>
+									</li>
+								</ul>
+								<div class="social__network-item header__button">
+									<button class="btn">Мне не пришёл билет</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header-bottom">
+					<div class="container">
+						<div class="header-bottom__inner">
+							<nav class="header__nav">
+								<ul class="nav__menu">
+									<li class="nav__menu-item">
+										<a href="#" class="nav__menu-link active">Афиша</a>
+									</li>
+									<li class="nav__menu-item">
+										<a href="#" class="nav__menu-link">Сеансы</a>
+									</li>
+									<li class="nav__menu-item">
+										<a href="#" class="nav__menu-link">Кинотеатр</a>
+									</li>
+									<li class="nav__menu-item">
+										<a href="#" class="nav__menu-link">Контакты</a>
+									</li>
+									<li class="navbar__menu-btn">
+										<button class="btn">Войти</button>
+									</li>
+									<li class="navbar__menu-btn">
+										<button class="btn">Написать отзыв</button>
+									</li>
+								</ul>
+							</nav>
+							<div class="burger">
+								<span></span>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<main class="main">
+				<section class="movie__date">
+					<div class="container">
+						<ul class="navbar__date">
+							<li class="navbar__date-item active" date-tab="date-tab1">
+								<a class="date__btn">Сегодня</a>
+							</li>
+							<li class="navbar__date-item" date-tab="date-tab2">
+								<a class="date__btn">Завтра</a>
+							</li>
+							<li class="navbar__date-item">
+								<a class="date__btn">Воскресенье, 10 сент.</a>
+							</li>
+							<li class="navbar__date-item">
+								<a class="date__btn">Понедельник, 11 сент.</a>
+							</li>
+							<li class="navbar__date-item">
+								<a class="date__btn">Вторник, 12 сент.</a>
+							</li>
+							<li class="navbar__date-item">
+								<a class="date__btn">Среда, 13 сент.</a>
+							</li>
+						</ul>
+					</div>
+				</section>
+				<div class="date__content active" id="date-tab1">
+					<div class="container">
+						<div class="main-container" id="movie-container"></div>
+						<!-- карточки с фильмами -->
+						<button class="btn next-day-seans" date-tab="date-tab2">
+							Сеансы на Завтра
+						</button>
+					</div>
+				</div>
+				<div class="date__content not-found" id="date-tab2">
+					<h1 class="not-found-title">Ничего не найдено</h1>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="footer__inner">
+					<div class="footer__top">
+						<div class="container">
+							<div class="top__inner">
+								<img src="images/logo.svg" alt="logo" class="logo" />
+								<ul class="contact__adress">
+									<li class="contact__title">
+										cassai@tpark.kz<br />
+										buhit@park.kz
+									</li>
+									<li class="contact__sub-title">улица Гумара Караша 33/2</li>
+								</ul>
+								<ul class="contact__number">
+									<li class="contact__title contact__number-title">
+										+7 (775) 000 00 01
+									</li>
+									<li class="contact__sub-title">Касса</li>
+								</ul>
+								<ul class="contact__number">
+									<li class="contact__title contact__number-title">
+										08:00 - 22:00 с пн.-пт.
+									</li>
+									<li class="contact__sub-title">График работы</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="footer__middle">
+						<div class="container">
+							<div class="middle__inner">
+								<nav class="footer__menu">
+									<ul class="menu">
+										<li class="footer__menu-item">
+											<p class="navbar__title">Меню</p>
+										</li>
+										<li class="footer__menu-item">
+											<a href="#" class="footer__menu-link">Афиша </a>
+										</li>
+										<li class="footer__menu-item">
+											<a href="#" class="footer__menu-link">Сеансы</a>
+										</li>
+										<li class="footer__menu-item">
+											<a href="#" class="footer__menu-link"
+												>Пушкинская карта
+											</a>
+										</li>
+										<li class="footer__menu-item">
+											<a href="#" class="footer__menu-link">Кинотеатр</a>
+										</li>
+										<li class="footer__menu-item">
+											<a href="#" class="footer__menu-link">Контакты</a>
+										</li>
+									</ul>
+								</nav>
+								<div class="payment">
+									<div class="payment__title">Способы оплаты:</div>
+									<div class="payment__images">
+										<img
+											src="images/MasterCard.svg"
+											alt="img"
+											class="payment__images-item"
+										/>
+										<img
+											src="images/Visa.svg"
+											alt="img"
+											class="payment__images-item"
+										/>
+									</div>
+									<p class="advertising">
+										Все сеансы начинаются с рекламно-информационного блока.
+										Точную продолжительность сеансов можно уточнить в
+										кинотеатре.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="footer__bottom">
+						<div class="container">
+							<div class="bottom__inner">
+								<div class="it-group">
+									<img
+										src="images/IT-Group.svg"
+										alt=""
+										class="logo__it-group"
+									/>
+									<p class="it-group__text">
+										<span class="it-group__gray">Сделано в</span> ТОО «IT Group
+										Kazakhstan» Создание сайтов для Государственных учреждений в
+										Казахстане
+									</p>
+								</div>
+								<div class="copyright">
+									<ul class="social__network">
+										<li class="social__network-item">
+											<a href="#" class="social__network-link"
+												><img src="images/Facebook.svg" alt=""
+											/></a>
+										</li>
+										<li class="social__network-item">
+											<a href="#" class="social__network-link"
+												><img src="images/Instagram.svg" alt=""
+											/></a>
+										</li>
+										<li class="social__network-item">
+											<a href="#" class="social__network-link"
+												><img src="images/YouTube.svg" alt=""
+											/></a>
+										</li>
+										<li class="social__network-item">
+											<a href="#" class="social__network-link"
+												><img src="images/Vkontakte (VK).svg" alt=""
+											/></a>
+										</li>
+									</ul>
+									<p class="copy">© 2023 Все права защищены</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<script src="scripts/main.js"></script>
+	</body>
+</html>
