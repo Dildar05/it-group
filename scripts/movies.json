@@ -58,5 +58,15 @@
 		"cost": ["4030₸"],
 		"hall": ["Зал 1"],
 		"poster": "images/not-found.png"
+	},
+	{
+		"title": "eleman",
+		"genre": ["комедия"],
+		"premiere": true,
+		"showtimes": ["16:10"],
+		"filmFormat": ["2D"],
+		"cost": ["4030₸"],
+		"hall": ["Зал 1"],
+		"poster": "images/not-found.png"
 	}
 ]
