@@ -15,7 +15,9 @@ document.addEventListener('DOMContentLoaded', function () {
 document.querySelector('.burger').addEventListener('click', function () {
 	this.classList.toggle('active')
 	document.querySelector('.header__nav').classList.toggle('open')
+	document.body.classList.toggle('no-scroll')
 })
+
 document.addEventListener('DOMContentLoaded', function () {
 	const tabLinks = document.querySelectorAll('.navbar__date-item')
 	const tabContents = document.querySelectorAll('.date__content')

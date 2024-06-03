@@ -165,6 +165,9 @@ a {
 .open {
 	display: flex !important;
 }
+body.no-scroll {
+	overflow: hidden;
+}
 .movie__date {
 	background-color: #f2f2f5;
 	padding: 8px 0;
@@ -475,5 +478,11 @@ a {
 	.top__inner img {
 		width: 170px;
 		height: 45px;
+	}
+	.payment__title {
+		text-align: center;
+	}
+	.payment__images {
+		justify-content: space-around;
 	}
 }
