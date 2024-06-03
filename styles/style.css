@@ -469,6 +469,9 @@ body.no-scroll {
 		font-size: 11px;
 		text-align: center;
 	}
+	.logo__it-group {
+		margin: 0 auto;
+	}
 	.top__inner {
 		flex-wrap: wrap;
 		gap: 20px;
