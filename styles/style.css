@@ -462,8 +462,12 @@ body.no-scroll {
 		font-size: 10px;
 		text-align: center;
 	}
+	.it-group {
+		flex-direction: column;
+	}
 	.it-group__text {
 		font-size: 11px;
+		text-align: center;
 	}
 	.top__inner {
 		flex-wrap: wrap;
