@@ -53,6 +53,8 @@ a {
 .contact__title {
 	color: white;
 	font-size: 16px;
+	line-height: 22px;
+	margin-bottom: 5px;
 }
 .contact__sub-title {
 	font-size: 13px;
@@ -326,6 +328,7 @@ body.no-scroll {
 	color: #a0aeb7;
 	font-size: 13px;
 	max-width: 420px;
+	line-height: 19px;
 }
 .footer__bottom {
 	background-color: #0c3542;
@@ -349,6 +352,7 @@ body.no-scroll {
 	color: #0094da;
 	font-size: 14px;
 	max-width: 435px;
+	line-height: 18px;
 }
 .it-group__gray {
 	color: #a0aeb7;
@@ -405,6 +409,7 @@ body.no-scroll {
 	}
 	.contact__title {
 		font-size: 13px;
+		line-height: 18px;
 	}
 
 	.contact__sub-title {
@@ -455,9 +460,36 @@ body.no-scroll {
 	}
 	.advertising {
 		font-size: 10px;
+		text-align: center;
 	}
 	.it-group__text {
 		font-size: 11px;
+	}
+	.top__inner {
+		flex-wrap: wrap;
+		gap: 20px;
+	}
+	.footer__menu {
+		display: flex;
+		justify-content: center;
+	}
+	.menu {
+		text-align: center;
+	}
+	.middle__inner {
+		flex-direction: column;
+		row-gap: 20px;
+	}
+	.payment__title {
+		text-align: center;
+	}
+
+	.payment__images {
+		justify-content: space-around;
+	}
+	.copyright {
+		flex-direction: column;
+		gap: 30px;
 	}
 }
 @media screen and (max-width: 495px) {
@@ -471,18 +503,9 @@ body.no-scroll {
 		padding: 5px 13px;
 		font-size: 11px;
 	}
-	.top__inner {
-		flex-wrap: wrap;
-		gap: 20px;
-	}
+
 	.top__inner img {
 		width: 170px;
 		height: 45px;
-	}
-	.payment__title {
-		text-align: center;
-	}
-	.payment__images {
-		justify-content: space-around;
 	}
 }
